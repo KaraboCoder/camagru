@@ -1,0 +1,189 @@
+html, body, p{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited{
+    color: #fff;
+}
+
+.top-nav{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+#signupForm-container, #loginForm-container, #forgotPassword-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+#signupForm-container h3, #loginForm-container h3, #forgotPassword-container h3{
+    color: #fff;
+}
+
+#signupForm-container button, #loginForm-container button, #forgotPassword-container button{
+    padding: 10px 30px;
+    margin: 10px;
+    border: none;
+    background-color: green;
+    color: #fff;
+}
+
+.hide{
+    display: none !important;
+}
+
+.show{
+    display: block;
+}
+
+.error{
+    color:red;
+    text-align: center;
+    padding: 20px;
+}
+
+.success{
+    color: green;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/************************************************
+*
+*               STYLES FOR EDITOR
+*
+************************************************/
+
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#cam-container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    flex: 1;
+}
+
+#cam{
+    width: 200px;
+    height: 200px;
+}
+
+#capture{
+    height: 59px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    padding: 19px 40px;
+    line-height: 0px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+#canvas-container{
+}
+
+#canvas{
+    width: 200px;
+    height: 200px;
+}
+
+#side-bar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.side-bar-img{
+    width: 100%;
+}
+
+.superposable-images{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.absolute-position{
+    position: absolute;
+}
+
+.delete-btn{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: red;
+    color: #fff;
+}
+
+#capture:disabled{
+    background-color: rgba(255,0,0,0.5);
+}
+
+
+/************************************************
+*
+*               STYLES FOR GALLERY
+*
+************************************************/
+
+.gallery-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-image-wrapper{
+    width: 200px;
+    margin: 5px;
+}
+
+.gallery-controls{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    color: #fff;
+}
+
+.view-comments, .likes{
+    cursor: pointer;
+}
+
+/********************************************
+*
+*             STYLES FOR COMMENTS
+*
+*********************************************/
+
+.comments-content, #comments-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#comments-form{
+    display: flex;
+    align-items: center
+}
+
+.comment-wrapper{
+
+    padding: 10px 0;
+}
